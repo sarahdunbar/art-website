@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Galleria </title>
+<style>
+body {
+    background-image: url("http://orig10.deviantart.net/96d9/f/2016/295/f/f/gradient2_by_inferrous-daluimm.png");
+    background-repeat: repeat-x;
+}
+.header {
+    width: 400px;
+    margin: auto;
+    background-color: lightblue;
+}
+.one {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+.two {
+    font-family: Georgia, serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Georgia, serif;
+    background-color: lightblue;
+}
+li {
+   float: left;
+}
+li a, .drop {
+   display: inline-block;
+   color: #000000;
+   text-align: center;
+   padding: 16px;
+   text-decoration: none;
+}
+.dropdown:hover, .drop:hover{
+   background-color: blue;
+}
+li.dropdown {
+    display: inline-block;
+}
+.active, a:active, .drop:active, .link:active{
+   background-color: purple;
+   color: white;
+}   
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: lightblue;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .5);
+}
+
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+   font-family: Georgia, serif
+}
+
+.dropdown-content a:hover, .link:hover {
+    background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.begin {
+    position: absolute;
+    float: left;
+    padding: 5px;
+    background-color: #edf8f5;
+    z-index: -1;
+}
+
+.two {
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+.classic {
+    font-family: Georgia, serif;
+    text-indent: 20px;
+    overflow: hidden;;
+}
+
+.img {
+    margin: 10px;
+    float: left;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.imglink:hover {
+    opacity: .5;
+}
+
+.fltleft:hover {
+    opacity: .99;
+}
+
+.imgdescdate {
+    position: relative;
+    background-color: white;
+    opacity: .9;
+    width: 60px;
+    float: right;
+    top: -400px;
+    padding: 5px;
+    margin: 0px 5px;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+    display: none;
+    font-weight: bold;
+    color: black;
+}
+
+.imgdesc {
+    position: relative;
+    background-color: white;
+    opacity: .9;
+    width: 60px;
+    top: -400px;
+    padding: 5px;
+    margin: 0px 5px;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+    display: none;
+    font-weight: bold;
+    color: black;
+}
+
+.img:hover .imgdesc {
+    display: inline-block;
+}
+
+.img:hover {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, .5);
+}
+
+.img:hover .imgdescdate {
+    display: inline-block;
+}
+
+.single {
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgheight {
+    height: 400px;
+}
+
+</style>
+</head>
+<header>
+<div class = "header"> 
+<h1 class = "one"> Galleria </h1>
+</div>
+</header>
+<nav>
+<ul>
+<li>
+<a href = "index.html" class = "link">Home</a>
+</li>
+<li class="dropdown">
+   <a href = "#" class = "active">Gallery</a>
+   <div class = "dropdown-content">
+   		<a href = "all_gallery.html">All</a>
+   		<a href = "hall_of_fame.html" class = "active" style = "color:white"> Hall of Fame</a>
+   </div>
+</li> 
+<li>
+<a href = "http://inferrous.deviantart.com/" class = "link" > DeviantArt</a>
+</li>
+<li class="dropdown">
+   <a href = "#" class = "drop">Resources</a>
+   <div class = "dropdown-content">
+   		<a href = "http://artists.pixelovely.com/practice-tools/">Pixelovely</a>
+   		<a href = "http://vilppuacademy.com/2013/">Villpu Academy </a>
+   </div>
+</li> 
+<li>
+    <a href = "commissions.html" class = "link"> Commissions</a></a>
+</li>
+</ul>
+<br></br>
+<div class = "begin">
+    <h1 class = "two">Hall of Fame</h1>
+    <p class = "classic"> The best of my art in vastly different ways. Pieces worked 
+    on for hours, pieces worked on for minutes, pieces with significant meaning,
+    pieces where I took risks, and everything in between.
+    </p>
+</div>
+</nav>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<div class = "img" style = "width:620px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Cover-Contest-Submission-644331081">
+        <img class = "imgheight" src = "http://img11.deviantart.net/d648/i/2016/311/8/f/cover_contest_submission_by_inferrous-danm91l.png" style = "width:620px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Cover Contest"  
+    </div>
+    <div class = "imgdescdate"> November 6, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:510px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Golem-641876197">
+        <img class = "imgheight" src = "http://pre03.deviantart.net/1bae/th/pre/i/2016/297/c/5/golem_by_inferrous-dam5mud.png" style = "width:510px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Golem"  
+    </div>
+    <div class = "imgdescdate"> October 23, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:400px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Photo-Study-1-Sunshine-637151918">
+        <img class = "imgheight" src = "http://pre08.deviantart.net/0d28/th/pre/f/2016/272/a/d/photo_study_1__sunshine_by_inferrous-dajcdke.png" style = "width:400px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Photo Study 1: Sunshine"  
+    </div>
+    <div class = "imgdescdate"> September 28, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:400px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Cathartic-Art-15-Mountain-Without-a-Face-631376639">
+        <img class = "imgheight" src = "http://pre14.deviantart.net/a173/th/pre/f/2016/242/b/5/cathartic_art_15__mountain_without_a_face_by_inferrous-dafwlbz.png" style = "width:400px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Cathartic Art 15: Mountain Without a Face"  
+    </div>
+    <div class = "imgdescdate"> August 29, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:400px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Cathartic-Art-10-Sunny-Skies-at-Sunset-630762112?q=Inferrous%2F58780999&qo=25">
+        <img class = "imgheight" src = "http://pre09.deviantart.net/4d89/th/pre/f/2016/239/4/0/cathartic_art_10__sunny_skies_at_sunset_by_inferrous-dafjf5s.png" style = "width:400px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Cathartic Art 10: Sunny Skies at Sunset"  
+    </div>
+    <div class = "imgdescdate"> August 26, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:500px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Cathartic-Art-7-Tempestuous-630699514?q=Inferrous%2F58780999&qo=29">
+        <img class = "imgheight" src = "http://pre01.deviantart.net/eb55/th/pre/i/2016/239/4/2/cathartic_art_7__tempestuous_by_inferrous-dafi2uy.png" style = "width:500px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Cathartic Art 7: Tempest"  
+    </div>
+    <div class = "imgdescdate"> August 26, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:400px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Abigail-Swanhaven-620287272">
+        <img class = "imgheight" src = "http://pre07.deviantart.net/fe1c/th/pre/f/2016/189/3/c/abigail_swanhaven_by_inferrous-da9awq0.png" style = "width:400px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Abigail Swanhaven"  
+    </div>
+    <div class = "imgdescdate"> July 7, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:320px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Looking-Forward-619788475">
+        <img class = "imgheight" src = "http://pre00.deviantart.net/7512/th/pre/f/2016/187/2/1/looking_forward_by_inferrous-da907uj.jpg" style = "width:320px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Looking Forward"  
+    </div>
+    <div class = "imgdescdate"> July 5, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:400px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Star-616030849">
+        <img class = "imgheight" src = "http://pre00.deviantart.net/8182/th/pre/f/2016/169/a/7/star_by_inferrous-da6rog1.jpg" style = "width:400px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Star"  
+    </div>
+    <div class = "imgdescdate"> June 17, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:400px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Stardust-613309321">
+        <img class = "imgheight" src = "http://pre02.deviantart.net/00b8/th/pre/f/2016/156/b/c/stardust_by_inferrous-da55ci1.jpg" style = "width:400px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Stardust"  
+    </div>
+    <div class = "imgdescdate"> June 4, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:520px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Square-Root-608326491">
+        <img class = "imgheight" src = "http://pre08.deviantart.net/757b/th/pre/i/2016/131/d/c/square_root_by_inferrous-da26jq3.jpg" style = "width:520px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Square Root"  
+    </div>
+    <div class = "imgdescdate"> May 10, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:300px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/10-Breathe-Again-607599934">
+        <img class = "imgheight" src = "http://pre01.deviantart.net/2bb6/th/pre/f/2016/128/1/e/10__breathe_again_by_inferrous-da1qz3y.jpg" style = "width:300px"></img>
+    </a>
+    <div class = "imgdesc">
+                "10. Breathe Again"  
+    </div>
+    <div class = "imgdescdate"> May 7, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:520px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/2-Love-607597165">
+        <img class = "imgheight" src = "http://pre03.deviantart.net/22de/th/pre/i/2016/128/8/e/2__love_by_inferrous-da1qwz1.jpg" style = "width:520px"></img>
+    </a>
+    <div class = "imgdesc">
+                "2. Love"  
+    </div>
+    <div class = "imgdescdate"> May 7, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:520px">
+    <a class = "imglink" target = "blank" href = "http://reliatye.deviantart.com/art/Stalemate-597949580">
+        <img class = "imgheight" src = "http://pre09.deviantart.net/7bae/th/pre/i/2016/080/c/6/stalemate_by_reliatye-d9w04uk.jpg" style = "width:520px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Stalement"  
+    </div>
+    <div class = "imgdescdate"> March 20, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:400px">
+    <a class = "imglink" target = "blank" href = "http://reliatye.deviantart.com/art/Horizon-Water-Practice-591707681">
+        <img class = "imgheight" src = "http://pre07.deviantart.net/c80c/th/pre/f/2016/049/2/a/horizon__water_practice__by_reliatye-d9sackh.jpg" style = "width:400px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Horizon (Water Practice)"  
+    </div>
+    <div class = "imgdescdate"> February 18, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:400px">
+    <a class = "imglink" target = "blank" href = "http://reliatye.deviantart.com/art/Eye-New-Brush-Test-591269866">
+        <img class = "imgheight" src = "http://pre05.deviantart.net/4a9e/th/pre/f/2016/047/f/0/eye__new_brush_test__by_reliatye-d9s0yqy.jpg" style = "width:400px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Eye (New Brush Test)"  
+    </div>
+    <div class = "imgdescdate"> February 16, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:560px">
+    <a class = "imglink" target = "blank" href = "http://reliatye.deviantart.com/art/Coming-Home-584811814?q=Reliatye%2F54112812&qo=26">
+        <img class = "imgheight" src = "http://orig12.deviantart.net/d3e3/f/2016/016/a/a/coming_home_by_reliatye-d9o6jom.jpg" style = "width:560px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Coming Home"  
+    </div>
+    <div class = "imgdescdate"> January 16, 2016 </div>
+    </div>
+</div>
+
+<div class = "img" style = "width:400px">
+    <a class = "imglink" target = "blank" href = "http://reliatye.deviantart.com/art/Saying-Goodbye-584351988?q=Reliatye%2F54112812&qo=28">
+        <img class = "imgheight" src = "http://orig09.deviantart.net/9847/f/2016/014/0/0/saying_goodbye_by_reliatye-d9nwovo.jpg" style = "width:400px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Saying Goodbye"  
+    </div>
+    <div class = "imgdescdate"> January 14, 2016 </div>
+    </div>
+</div>
