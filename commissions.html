@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Galleria </title>
+<style>
+body {
+    background-image: url("http://orig10.deviantart.net/96d9/f/2016/295/f/f/gradient2_by_inferrous-daluimm.png");
+    background-repeat: repeat-x;
+}
+.header {
+    width: 400px;
+    margin: auto;
+    background-color: lightblue;
+}
+.one {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+.two {
+    font-family: Georgia, serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Georgia, serif;
+    background-color: lightblue;
+}
+li {
+   float: left;
+}
+li a, .drop {
+   display: inline-block;
+   color: #000000;
+   text-align: center;
+   padding: 16px;
+   text-decoration: none;
+}
+.dropdown:hover, .drop:hover{
+   background-color: blue;
+}
+li.dropdown {
+    display: inline-block;
+}
+.active, a:active, .drop:active, .link:active{
+   background-color: purple;
+   color: white;
+}   
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: lightblue;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .5);
+}
+
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+   font-family: Georgia, serif
+}
+
+.dropdown-content a:hover, .link:hover {
+    background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.begin {
+    position: absolute;
+    float: left;
+    padding: 5px;
+    background-color: #edf8f5;
+    z-index: -1;
+}
+
+.two {
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+.classic {
+    font-family: Georgia, serif;
+    text-indent: 20px;
+    overflow: hidden;;
+}
+
+.img {
+    margin: 10px;
+    float: left;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imglink:hover {
+    opacity: .5;
+}
+
+.fltleft:hover {
+    opacity: .99;
+}
+
+.imgdescdate {
+    position: relative;
+    background-color: white;
+    opacity: .9;
+    width: 60px;
+    float: right;
+    top: -200px;
+    padding: 5px;
+    margin: 0px 5px;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+    display: none;
+    font-weight: bold;
+    color: black;
+}
+
+.imgdesc {
+    position: relative;
+    background-color: white;
+    opacity: .9;
+    width: 60px;
+    top: -200px;
+    padding: 5px;
+    margin: 0px 5px;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+    display: none;
+    font-weight: bold;
+    color: black;
+}
+
+.img:hover .imgdesc {
+    display: inline-block;
+}
+
+.img:hover {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, .5);
+}
+
+.img:hover .imgdescdate {
+    display: inline-block;
+}
+
+.single {
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgheight {
+    height: 200px;
+}
+
+.tabwidth {
+    width: 100%;
+}
+
+th, td {
+     padding: 15px;
+     table-layout: fixed;
+     width: 33%;
+}
+
+.three {
+    font-family: Georgia, Serif;
+    font-size: 16px;
+}
+
+</style>
+</head>
+<header>
+<div class = "header"> 
+<h1 class = "one"> Galleria </h1>
+</div>
+</header>
+<nav>
+<ul>
+<li>
+<a href = "index.html" class = "link">Home</a>
+</li>
+<li class="dropdown">
+   <a href = "#" class = "drop">Gallery</a>
+   <div class = "dropdown-content">
+   		<a href = "all_gallery.html">All</a>
+   		<a href = "hall_of_fame.html"> Hall of Fame</a>
+   </div>
+</li> 
+<li>
+<a href = "http://inferrous.deviantart.com/" class = "link" > DeviantArt</a>
+</li>
+<li class="dropdown">
+   <a href = "#" class = "drop">Resources</a>
+   <div class = "dropdown-content">
+   		<a href = "http://artists.pixelovely.com/practice-tools/">Pixelovely</a>
+   		<a href = "http://vilppuacademy.com/2013/">Villpu Academy </a>
+   </div>
+</li> 
+<li>
+    <a href = "commissions.html" class = "active"> Commissions</a></a>
+</li>
+</ul>
+<br></br>
+<div class = "begin">
+    <h1 class = "two">Commissions</h1>
+    <p class = "classic"> Please commission me I am starving and need foood. Not 
+    really, but I would appreciate a commission all the same *hint hint*
+    </p>
+</div>
+</nav>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<div class = "begin">
+    <h1 class = "three" > Commission Policy</h1>
+    <p class = "classic"> If you commission me, I promise to finish your commission
+    within THREE DAYS of your request. If somehow this was not done or if the commission
+    is not up to your standards, you get another commission free of charge.
+    </p>
+    <p class = "classic">
+    As for refunds, for the first twenty-four hours after your commission, if you decide
+    it was a mistake you get your money back in full. For every subsequent twenty-four
+    hours, the amount you get back can be calculated with the following equation: m
+    = c(1/2)^x, that is, every day you wait the money you receive gets halved. For example,
+    if you canceled the commission on the second day you would get half the price back, 
+    and if you cancel on the third you only get a quarter refund. Once the picture is 
+    posted, there is no refund. Sorry if this is harsh, but I work hard on these and 
+    don't want the work to go to waste.
+    </p>
+    <table class = "tabwidth">
+        <caption> <h1 class = "three"> PRICING</h1></caption>
+        <tr> 
+            <th> Type 1</th>
+            <th> Type 2</th>
+            <th> Type 3</th>
+        </tr>
+        <tr>
+            <td> A lineart of your OC/character, either headshot or full body, both the 
+            rough and lined versions OR a colored background to use in your art.
+            </td>
+            <td> A colored portrait of your OC/character with a simple background OR
+            a more complex background to use in your art.
+            </a>
+            </td>
+            <td> A full-detail, full background portrait of one or more OCs/characters or a 
+            highly detailed background for use in your art.</td>
+        </tr>
+        <tr>
+            <td>
+                <div class = "img" style = "width:200px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Cathartic-Art-10-Sunny-Skies-at-Sunset-630762112">
+        <img class = "imgheight" src = "http://pre09.deviantart.net/4d89/th/pre/f/2016/239/4/0/cathartic_art_10__sunny_skies_at_sunset_by_inferrous-dafjf5s.png" style = "width:200px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Sunny Skies at Sunset"  
+    </div>
+    <div class = "imgdescdate"> August 26, 2016 </div>
+    </div>
+</div>
+            </td>
+            <td>
+                <div class = "img" style = "width:260px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Golem-641876197">
+        <img class = "imgheight" src = "http://pre03.deviantart.net/1bae/th/pre/i/2016/297/c/5/golem_by_inferrous-dam5mud.png" style = "width:260px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Gollum"  
+    </div>
+    <div class = "imgdescdate"> October 23, 2016 </div>
+    </div>
+</div>
+            </td>
+            <td>
+                <div class = "img" style = "width:200px">
+    <a class = "imglink" target = "blank" href = "http://inferrous.deviantart.com/art/Stardust-613309321">
+        <img class = "imgheight" src = "http://pre02.deviantart.net/00b8/th/pre/f/2016/156/b/c/stardust_by_inferrous-da55ci1.jpg" style = "width:200px"></img>
+    </a>
+    <div class = "imgdesc">
+                "Stardust"  
+    </div>
+    <div class = "imgdescdate"> June 4, 2016 </div>
+    </div>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                You will receive the PNG (vector for linearts) and the document* with
+                all of the layers.
+            </td>
+            <td> You will receive the PNG, sketched version, and the document* with
+                all of the layers.
+            </td>
+            <td> You will receive the PNG, sketched version, complete video process, 
+            and document* with all the layers.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1......................$1
+            </td>
+            <td>
+                1......................$5
+            </td>
+            <td>
+                1......................$7
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2......................$1.50
+            </td>
+            <td>
+                2......................$7.50
+            </td>
+            <td>
+                2......................$11
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3......................$2
+            </td>
+            <td>
+                3......................$9
+            </td>
+            <td>
+                3......................$15
+            </td>
+        </tr>
+        <tr>
+            <td>
+                4+......................$.50/piece
+            </td>
+            <td>
+                4+......................$2.25/piece
+            </td>
+            <td>
+                4+......................$3.50/piece
+            </td>
+        </tr>
+    </table>
+    <p class = "classic">
+        *Document being either a .psd or .sai, depending on your program of choice
+    </p>
+    <p>
+        Contact me: sarahdunbar@hanovernorwichschools.org
+    </p>
+</div>
